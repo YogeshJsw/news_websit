@@ -12,7 +12,7 @@ function News(props){
     const [page,setPage]=useState(1)
     const [totalPages,setTotalPages]=useState(0)
 
-    document.title = `${props.category.charAt(0).toUpperCase() + props.category.slice(1, props.category.length)} - NewsApp`
+    document.title = `${props.category.charAt(0).toUpperCase() + props.category.slice(1, props.category.length)} - QuickNews`
 
 
 
